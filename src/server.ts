@@ -4,7 +4,7 @@ import { PrismaClient } from '@prisma/client';
 import { convertHourStringToMinutes } from './utils/convert-hour-string-to-minutes';
 import { convertMinutesToHourString } from './utils/convert-minutes-to-hour-string';
 
-const { PORT } = process.env || 3000
+const PORT = 3333
 
 const app = express();
 
