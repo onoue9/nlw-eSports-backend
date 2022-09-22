@@ -5,8 +5,8 @@
   "main": "src/api/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsc && node build/api/index.js",
-    "dev": "tsnd --exit-child src/api/index.ts"
+    "start": "tsc && node build/server.js",
+    "dev": "tsnd --exit-child src/server.ts"
   },
   "keywords": [],
   "author": "",
