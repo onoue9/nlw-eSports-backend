@@ -1,6 +1,6 @@
 // tsup.config.js
 export default {
-  entryPoints: ['src/index.ts'],
+  entryPoints: ['src/server.ts'],
   format: ['cjs'],
   bundle: true,
   loader: {
