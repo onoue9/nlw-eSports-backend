@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/api/index.js",
+  "engines": {
+    "node": "16"
+  },
   "scripts": {
     "build": "tsup src",
     "start": "node dist/server.js",
